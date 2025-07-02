@@ -53,28 +53,7 @@ This project uses a Genetic Algorithm to generate diverse and categorized date t
 
     Saving Output
     All test cases are saved in test_cases.json.
-
-🧪 Output Example
-
-{
-    "valid_cases": [
-        { "date": "12/10/2020", "category": "standard" },
-        ...
-    ],
-    "invalid_cases": [
-        { "date": "31/04/2022", "category": "unique1" },
-        ...
-    ],
-    "boundary_cases": [
-        { "date": "1/6/2023", "category": "unique3" },
-        ...
-    ],
-    "special_boundaries": [
-        { "date": "29/2/2024", "category": "unique4" },
-        ...
-    ]
-}
-
+    
 How to Run
 Requirements
 
@@ -82,9 +61,10 @@ Requirements
 
 Run the Algorithm
 
-python your_script_name.py
+python DateTestCases.py
 
 The algorithm will print out categorized test cases and save them in test_cases.json.
+
 Concepts Covered
 
     Genetic Algorithms: Initialization, fitness, selection, crossover, mutation
@@ -92,6 +72,7 @@ Concepts Covered
     Date validation and categorization
 
     Test case generation for software testing
+
 Author
 
     Zubair Khalid
