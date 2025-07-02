@@ -75,7 +75,7 @@ This project uses a Genetic Algorithm to generate diverse and categorized date t
     ]
 }
 
-🚀 How to Run
+How to Run
 Requirements
 
     Python 3.x
@@ -85,20 +85,13 @@ Run the Algorithm
 python your_script_name.py
 
 The algorithm will print out categorized test cases and save them in test_cases.json.
-🧠 Concepts Covered
+Concepts Covered
 
     Genetic Algorithms: Initialization, fitness, selection, crossover, mutation
 
     Date validation and categorization
 
     Test case generation for software testing
-
-📁 File Structure
-
-├── date_generator.py         # Main script
-├── test_cases.json           # Generated output
-└── README.md                 # You're here!
-
-✍️ Author
+Author
 
     Zubair Khalid
